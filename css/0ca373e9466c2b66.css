@@ -18,7 +18,7 @@
 
 .LoadingScreen_loadingContent__ndn9l {
     font-family: Courier New,monospace;
-    color: #0f0;
+    color: #3e42b3;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
 .LoadingScreen_rupeeSymbol__aIKXC {
     width: 100%;
     height: 100%;
-    filter: drop-shadow(0 0 3px #00ff00) drop-shadow(0 0 6px #00ff00);
+    filter: drop-shadow(0 0 3px #040681) drop-shadow(0 0 6px #040681);
     animation: LoadingScreen_neonPulse__Z_Pq0 2.5s ease-in-out infinite alternate;
 }
 
@@ -48,7 +48,7 @@
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
-    text-shadow: 0 0 10px #0f0
+    text-shadow: 0 0 10px #3e42b3
 }
 
 .LoadingScreen_loadingBarContainer__L07Tp {
@@ -60,7 +60,7 @@
     width: 100%;
     height: 20px;
     background-color: #010;
-    border: 1px solid #0f0;
+    border: 1px solid #3e42b3;
     border-radius: 10px;
     overflow: hidden;
     position: relative
@@ -68,7 +68,7 @@
 
 .LoadingScreen_progress__YLmz4 {
     height: 100%;
-    background-color: #0f0;
+    background-color: #3e42b3;
     transition: width .5s ease;
     position: relative;
     overflow: hidden
@@ -132,9 +132,9 @@
     padding: 10px 20px;
     font-family: Courier New,monospace;
     font-size: 18px;
-    color: #0f0;
+    color: #3e42b3;
     background-color: transparent;
-    border: 2px solid #0f0;
+    border: 2px solid #3e42b3;
     border-radius: 5px;
     cursor: pointer;
     transition: all .3s ease;
@@ -143,7 +143,7 @@
 
 .LoadingScreen_enterTerminalButton__RIiwH:hover {
     background-color: rgba(0,255,0,.1);
-    box-shadow: 0 0 10px #0f0
+    box-shadow: 0 0 10px #3e42b3
 }
 
 .LoadingScreen_buttonVisible__EbcA_ {
@@ -166,11 +166,11 @@
 
 @keyframes LoadingScreen_neonPulse__Z_Pq0 {
     0% {
-        filter: brightness(0) invert(1) drop-shadow(0 0 3px #00ff00) drop-shadow(0 0 6px #00ff00)
+        filter: brightness(0) invert(1) drop-shadow(0 0 3px #040681) drop-shadow(0 0 6px #040681)
     }
 
     to {
-        filter: brightness(0) invert(1) drop-shadow(0 0 4px #00ff00) drop-shadow(0 0 8px #00ff00)
+        filter: brightness(0) invert(1) drop-shadow(0 0 4px #040681) drop-shadow(0 0 8px #040681)
     }
 }
 
@@ -200,10 +200,10 @@
     width: 100%;
     height: 80vh;
     background-color: rgba(0,0,0,.9);
-    border: 1px solid #0f0;
+    border: 1px solid #3e42b3;
     border-radius: 6px;
     font-family: Courier New,monospace;
-    color: #0f0;
+    color: #3e42b3;
     z-index: 2;
     box-shadow: 0 0 20px rgba(0,255,0,.2);
     display: flex;
@@ -216,7 +216,7 @@
     align-items: center;
     padding: 8px;
     background-color: rgba(0,0,0,.8);
-    border-bottom: 1px solid #0f0
+    border-bottom: 1px solid #3e42b3
 }
 
 .Terminal_close__fJhlo,.Terminal_maximize__AWA_C,.Terminal_minimize__oiAXd {
@@ -241,7 +241,7 @@
 .Terminal_title__fuQL7 {
     margin-left: 16px;
     font-size: 14px;
-    color: #0f0
+    color: #3e42b3
 }
 
 .Terminal_stats__ArzHL {
@@ -249,7 +249,7 @@
     padding: 8px;
     font-size: 14px;
     background-color: rgba(0,0,0,.8);
-    border-bottom: 1px solid #0f0
+    border-bottom: 1px solid #3e42b3
 }
 
 .Terminal_stats__ArzHL span {
@@ -263,7 +263,7 @@
 }
 
 .Terminal_status__MyCp9 {
-    color: #0f0
+    color: #3e42b3
 }
 
 .Terminal_content__E7791 {
@@ -296,18 +296,18 @@
 .Terminal_logoText__FNSFW>div:first-child {
     font-size: 24px;
     font-weight: 700;
-    color: #0f0;
+    color: #3e42b3;
     text-shadow: 0 0 10px rgba(0,255,0,.5)
 }
 
 .Terminal_greeting__Dhgvv {
     font-size: 18px;
-    color: #0a0
+    color: #3e42b3
 }
 
 .Terminal_testInvitationBox__XiTG4 {
     background-color: rgba(0,255,0,.1);
-    border: 1px solid #0f0;
+    border: 1px solid #3e42b3;
     border-radius: 4px;
     padding: 10px;
     margin-top: 20px;
@@ -321,7 +321,7 @@
 
 .Terminal_terminalTitle__smM83,.Terminal_testInvitation__BgoeO {
     font-weight: 700;
-    color: #0f0;
+    color: #3e42b3;
     text-shadow: 0 0 10px rgba(0,255,0,.5)
 }
 
@@ -342,7 +342,7 @@
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
-    color: #0f0;
+    color: #3e42b3;
     text-shadow: 0 0 5px rgba(0,255,0,.5)
 }
 
@@ -355,8 +355,8 @@
     padding: 10px 20px;
     font-size: 16px;
     background-color: transparent;
-    border: 1px solid #0f0;
-    color: #0f0;
+    border: 1px solid #3e42b3;
+    color: #3e42b3;
     cursor: pointer;
     transition: background-color .3s ease,box-shadow .3s ease;
     border-radius: 4px
@@ -395,7 +395,7 @@
 .Terminal_divider__4k1dS {
     width: 100%;
     height: 1px;
-    background-color: #0f0;
+    background-color: #3e42b3;
     margin: 20px 0
 }
 
@@ -403,8 +403,8 @@
     padding: 10px 20px;
     font-size: 18px;
     background-color: transparent;
-    border: 1px solid #0f0;
-    color: #0f0;
+    border: 1px solid #3e42b3;
+    color: #3e42b3;
     cursor: pointer;
     transition: background-color .3s ease,box-shadow .3s ease;
     border-radius: 4px
@@ -441,9 +441,9 @@
     gap: 8px;
     padding: 8px 16px;
     background-color: rgba(0,0,0,.8);
-    border: 1px solid #0f0;
+    border: 1px solid #3e42b3;
     border-radius: 4px;
-    color: #0f0;
+    color: #3e42b3;
     font-family: Courier New,monospace;
     text-decoration: none;
     font-size: 14px;
@@ -466,9 +466,9 @@
     justify-content: center;
     padding: 8px 16px;
     background-color: rgba(0,0,0,.8);
-    border: 1px solid #0f0;
+    border: 1px solid #3e42b3;
     border-radius: 4px;
-    color: #0f0;
+    color: #3e42b3;
     font-family: Courier New,monospace;
     text-decoration: none;
     font-size: 14px;
@@ -490,9 +490,9 @@
     padding: 10px 20px;
     font-family: Courier New,monospace;
     font-size: 16px;
-    color: #0f0;
+    color: #3e42b3;
     background-color: rgba(0,0,0,.8);
-    border: 1px solid #0f0;
+    border: 1px solid #3e42b3;
     border-radius: 4px;
     cursor: pointer;
     transition: all .3s ease;
@@ -519,7 +519,7 @@
 
 .ComingSoonButton_card__PWaqH {
     background-color: rgba(0,0,0,.9);
-    border: 1px solid #0f0;
+    border: 1px solid #3e42b3;
     border-radius: 4px;
     padding: 20px;
     width: 90%;
@@ -537,13 +537,13 @@
     right: 10px;
     background: none;
     border: none;
-    color: #0f0;
+    color: #3e42b3;
     font-size: 18px;
     cursor: pointer
 }
 
 .ComingSoonButton_cardContent__yWC8j {
-    color: #0f0;
+    color: #3e42b3;
     font-size: 18px;
     text-align: center;
     margin: 20px 0
